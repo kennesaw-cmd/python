@@ -1,2 +1,2 @@
 # python
-python from beginner to pro day wise content.
+its a python notes from day to day  wise schedule process.
