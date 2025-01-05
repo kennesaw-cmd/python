@@ -1,0 +1,81 @@
+# 🍕 **Pizza Orders Data Analysis Project**
+
+## **Brief Summary of the Project**
+
+This project involves analyzing and cleaning a pizza order dataset to derive meaningful insights about customer preferences and sales trends. The dataset contains various attributes such as pizza size, category, ingredients, order time, and prices. Through this project, we performed data understanding, cleaning, and exploratory data analysis (EDA). The final result helps understand pizza sales trends and customer behavior, which can be useful for business decision-making in the food and beverage industry.
+
+---
+
+## **Sections**
+
+### **1. Data Understanding**
+
+In the initial phase, we explored the raw dataset to understand its structure and features. Below are the tasks completed during this stage:
+
+- **Shape of Dataset**: Determined the number of rows and columns to understand the dataset's size.
+- **Basic Information**: Extracted data types, null values, and summary statistics.
+- **Unique Values in a Column**: Identified distinct entries in specific columns like `pizza_name`.
+- **Frequency of Unique Values**: Counted occurrences of each unique value in columns like `pizza_category`.
+- **Column Names**: Checked for all column names to prepare for processing.
+
+---
+
+### **2. Data Cleaning**
+
+Data cleaning ensured that the dataset was ready for analysis by fixing inconsistencies and improving data quality. The steps included:
+
+1. **Handling Missing Data**:
+   - Detected and filled or removed null values based on context.
+
+2. **Removing Duplicate Values**:
+   - Eliminated duplicate rows to prevent redundancy.
+
+3. **Fixing Data Types**:
+   - Ensured proper data types
+
+4. **Standardizing Text Data**:
+   - Standardize text in columns 
+
+5. **Generating New Columns**:
+   - Added features
+
+6. **Dropping Unnecessary Columns**:
+   - Removed irrelevant columns to focus on important data.
+
+7. **Renaming Columns**:
+   - Changed column names for clarity and standardization.
+
+8. **Saving Cleaned Data**:
+   - Stored the cleaned dataset into a new CSV file (`cleaned_pizza_data.csv`).
+
+---
+
+### **3. Exploratory Data Analysis (EDA)**
+
+EDA involved summarizing the dataset with statistical methods and visualizations to identify trends and patterns.
+
+#### a. **Univariate Analysis**:
+   - Analyzed single variables using counts, proportions, and visualizations (e.g., count plots for `pizza_size` and histograms for `total_price`).
+
+#### b. **Bivariate Analysis**:
+   - Studied relationships between two variables (e.g., `pizza_category` vs. `quantity`) using techniques like count plots and barplots.
+
+#### c. **Multivariate Analysis**:
+   - Investigated interactions among multiple variables, such as the relationship between `pizza_size`, `pizza_category`, and `total_price`.
+
+---
+
+## **Key Features**
+
+- Cleaned and processed raw pizza dataset.
+- Generated new features and standardized data for consistent analysis.
+- Visualized patterns in pizza sales and identified key customer preferences.
+
+---
+
+## **Technologies and Libraries Used**
+
+- **Programming Language**: Python
+- **Libraries**: pandas, matplotlib, seaborn
+
+
